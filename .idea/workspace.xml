@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00179c4b-cd72-4883-8e6f-273f95c12676" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/rafaelvi/shoplist/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/rafaelvi/shoplist/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/rafaelvi/shoplist/models/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/rafaelvi/shoplist/models/CreditCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/rafaelvi/shoplist/models/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/rafaelvi/shoplist/models/Transaction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +37,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java"
   }
 }]]></component>

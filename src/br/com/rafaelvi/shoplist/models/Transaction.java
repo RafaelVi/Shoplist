@@ -1,11 +1,11 @@
 package br.com.rafaelvi.shoplist.models;
 
-public class Transaction {
+public class Transaction implements Comparable<Transaction> {
     private String item_name;
-    private int value;
+    private double value;
     private boolean isValid;
 
-    public Transaction(String item_name, int value) {
+    public Transaction(String item_name, double value) {
         this.item_name = item_name;
         this.value = value;
         this.isValid = true;
@@ -15,7 +15,7 @@ public class Transaction {
         return item_name;
     }
 
-    public int getValue() {
+    public double getValue() {
         return value;
     }
 
@@ -25,5 +25,10 @@ public class Transaction {
 
     public void setValid(boolean valid) {
         isValid = valid;
+    }
+
+    @Override
+    public int compareTo(Transaction t) {
+        return Double.compare(this.getValue(), t.getValue());
     }
 }
